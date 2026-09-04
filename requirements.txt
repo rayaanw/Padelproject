@@ -1,0 +1,10 @@
+# Pinned to 0.10.14: mediapipe>=1.0 dropped the legacy `solutions.pose` API
+# in favor of the Tasks API, whose pose-detection calculator hard-crashes
+# with "DrishtiMetalHelper ... Service is unavailable" on this environment
+# (macOS, no GPU/Metal service available to the process). 0.10.14 is the
+# newest release that still ships the CPU-only legacy solution.
+mediapipe==0.10.14
+opencv-python
+numpy
+rich
+anthropic

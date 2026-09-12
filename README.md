@@ -1,8 +1,14 @@
-# Rebote (MVP prototype)
+# Rebote — Padel Swing Analyzer (MVP prototype)
 
-A phone-video swing analyzer, per the [Rebote PRD](.). This is the **heuristic
-MVP** scoped in this build session — not the full product. Read
-[What this is / isn't](#what-this-is--isnt) before trusting the numbers.
+A phone-video swing analyzer for padel/tennis players: point it at a clip and
+it tracks body pose frame-by-frame, detects individual swings, and reports
+per-swing metrics (contact height/"shot zone", peak wrist speed, elbow angle,
+split-step) plus a coaching note — grounded in the real computed numbers, or
+generated live by the Claude API if a key is set.
+
+This is the **heuristic MVP** scoped in this build session — not the full
+product (see [What this is / isn't](#what-this-is--isnt) below for exactly
+what's real vs. approximated before trusting the numbers).
 
 ## Setup
 
